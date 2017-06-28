@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
+import {BrowserRouter as Router} from 'react-router'
+import Routes from './routes'
 
 ReactDOM.render(
-  <div>
-    <h1>Hello World!</h1>
-  </div>
+    <Routes />,
+    document.getElementById('root')
+)
 
-, document.getElementById('root'));
+
 
